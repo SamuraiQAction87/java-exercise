@@ -13,6 +13,7 @@ public class Carro {
         this.pedais = "Pedais";
     }
 
+    // Métodos comuns:
     public void ligarCarro() {
         System.out.println("Ligando o carro...");
     }
