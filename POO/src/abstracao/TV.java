@@ -11,20 +11,25 @@ public class TV {
         // O atributo da classe recebe sua negação (Se está 1, ficará 0 e vice-versa):
         this.ligada = !this.ligada;
         System.out.println(
-                // If ternário que retorna conforme o estado do atributo 'ligada':
+                // If Ternário que retorna conforme o estado atual do atributo 'ligada':
                 "A TV está " + (ligada ? "ligada" : "desligada")
         );
     }
 
     // Metodo para incrementar volume:
     public void aumentarVolume() {
-        volume++;
-        System.out.println("Volume aumentado para: " + volume);
+        this.volume++;
+        System.out.println("Volume aumentado para: " + this.volume);
     }
     // Metodo para decrementar volume:
     public void diminuirVolume() {
-        volume--;
-        System.out.println("Volume diminuído para: " + volume);
+        this.volume--;
+        System.out.println("Volume diminuído para: " + this.volume);
+    }
+    // Metodo com passagem de parâmetro para trocar de canal:
+    public void trocarCanal(int novoCanal) {
+        this.canal = novoCanal;
+        System.out.println("Canal alterado para: " + this.canal);
     }
 
 }
