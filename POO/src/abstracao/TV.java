@@ -16,6 +16,17 @@ public class TV {
         );
     }
 
+    // Metodo para incrementar volume:
+    public void aumentarVolume() {
+        volume++;
+        System.out.println("Volume aumentado para: " + volume);
+    }
+    // Metodo para decrementar volume:
+    public void diminuirVolume() {
+        volume--;
+        System.out.println("Volume diminuído para: " + volume);
+    }
+
 }
 
 
