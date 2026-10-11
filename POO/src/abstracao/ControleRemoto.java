@@ -1,7 +1,7 @@
 package abstracao;
 
 public class ControleRemoto {
-    // Referência da TV que à qual serão delegadas às ações:
+    // Referência da TV à qual serão delegadas às ações:
     private final TV tv;
 
     // Construtor: O controle remoto recebe a TV que controlará:
