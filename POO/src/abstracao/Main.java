@@ -9,10 +9,17 @@ public class Main {
         ControleRemoto controle = new ControleRemoto(minhaTV);
 
         // Chamada dos metodos da classe de Referência TV
-        // por meio de sua instância:
+        // por meio de sua instância 'minhaTV':
         minhaTV.ligarDesligar();
         minhaTV.aumentarVolume();
         minhaTV.diminuirVolume();
         minhaTV.trocarCanal(9);
+
+        // Chamada dos metodos da classe de Referência ControleRemoto
+        // por meio de sua instância 'controle':
+        controle.botaoPower();
+        controle.botaoMaisVolume();
+        controle.botaoMenosVolume();
+        controle.digitarCanal(369);
     }
 }
