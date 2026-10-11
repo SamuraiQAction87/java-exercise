@@ -14,6 +14,7 @@ public class Main {
         minhaTV.aumentarVolume();
         minhaTV.diminuirVolume();
         minhaTV.trocarCanal(9);
+        System.out.println("========================");
 
         // Chamada dos metodos da classe de Referência ControleRemoto
         // por meio de sua instância 'controle':
