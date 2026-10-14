@@ -8,17 +8,6 @@ public class Main {
         Tempestade tempestade = new Tempestade();
         ViuvaNegra viuvaNegra = new ViuvaNegra();
 
-        // Invocando os métodos recebendo os heróis como argumento:
-        userSuperPoderes(homemDeFerro);
-        userSuperPoderes(homemAranha);
-    }
-    // Sem herança, os métodos seriam criados individualmente:
-    static void userSuperPoderes(HomemDeFerro homemDeFerro) {
-
-    }
-
-    static void userSuperPoderes(HomemAranha homemAranha) {
-
     }
 }
 
