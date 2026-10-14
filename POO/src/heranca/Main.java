@@ -2,12 +2,12 @@ package heranca;
 
 public class Main {
     public static void main(String[] args) {
-        // Instanciando as classes de super-heróis:
-        HomemAranha homemAranha = new HomemAranha();
-        HomemDeFerro homemDeFerro = new HomemDeFerro();
-        Tempestade tempestade = new Tempestade();
-        ViuvaNegra viuvaNegra = new ViuvaNegra();
-
+        SuperHeroi[] superHerois = {
+                new HomemDeFerro("Roupa Vermelha com Teias.", new String[] {"Lançar Teia."}),
+                new HomemAranha("Roupa Vermelha resistente.", new String[] {"habilidades de guerra."}),
+                new Tempestade("Roupa branca.", new String[] {"Controlar o tempo."}),
+                new ViuvaNegra("Roupa Vermelha e preta.", new String[] {"Lançar Teia."})
+        }
     }
 }
 
