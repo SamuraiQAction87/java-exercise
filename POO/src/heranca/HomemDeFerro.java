@@ -9,6 +9,7 @@ public class HomemDeFerro extends SuperHeroi {
     // Metodo da classe pai sobrescrito:
     public void usarSuperPoderes(int index) {
         System.out.println("Falar com a Jarvis (IA Assistente)!" );
+        // Metodo da Super Classe:
         super.usarSuperPoderes(index);
     }
 }
